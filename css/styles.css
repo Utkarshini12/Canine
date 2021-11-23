@@ -1,0 +1,63 @@
+body{
+    background: url(https://static.pexels.com/photos/36372/pexels-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: nunito,sans-serif;
+}
+html{
+    height: 100%;
+}
+
+#content{
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+}
+
+ .navbar-nav>li>a {
+    color: black;
+    font-size: 1.1em;
+}
+
+ .navbar-brand {
+    color: black;
+    font-size: 1.7em;
+}
+
+ .navbar-nav>.active>a,  .navbar-nav>.active>a:focus,  .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: #DBDBDB;
+}
+
+ .navbar-toggle:focus,  .navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+ .navbar-toggle {
+    border: none;
+}
+
+ .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.nav-style{
+    border-radius: 0px;
+    border: none;
+    color: black;
+    background: rgba(0, 0, 0, 0);
+}
+
+hr{
+    width: 60%;
+}
+h1{
+    font-weight: 700;
+    font-size: 55px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 9px,
+                 rgb(54, 54, 54) 2px 1px 18px;
+}
+h3{
+    color: rgba( 255, 255, 255, 1);
+    text-shadow: rgb(0, 0, 0) 0px 0px 9px,
+                 rgb(54, 54, 54) 2px 1px 18px;
+}
